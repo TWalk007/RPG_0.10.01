@@ -11,6 +11,6 @@ public class Cursor : MonoBehaviour {
 	}
 
 	void Update () {
-		print (cameraRayCaster.layerHit);
+		//print (cameraRayCaster.layerHit);
 	}
 }

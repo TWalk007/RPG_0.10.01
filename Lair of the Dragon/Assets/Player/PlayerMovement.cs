@@ -38,8 +38,6 @@ public class PlayerMovement : MonoBehaviour
         {
             ProcessMouseMovement();
         }
-
-        ProcessMouseMovement();
     }
 
     private void ProcessDirectMovement()
@@ -58,12 +56,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            print("Cursor raycast hit layer: " + cameraRaycaster.layerHit);
             switch (cameraRaycaster.layerHit)
             {
                 case Layer.Walkable:
                     currentClickTarget = cameraRaycaster.hit.point;
-                    m_Character.Move(currentClickTarget - transform.position, false, false);
                     break;
                 case Layer.Enemy:
                     print("Not moving to enemy");

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1061
-  m_MinSize: {x: 681, y: 342}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 683, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 60
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 232
     height: 733
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1464
     height: 1061
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 61
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,8 +230,8 @@ MonoBehaviour:
     y: 0
     width: 1464
     height: 733
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 11
 --- !u!114 &11
@@ -311,7 +311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 825
-    width: 1529
+    width: 1462
     height: 307
   m_SearchFilter:
     m_NameFilter: 
@@ -325,19 +325,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Player
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Player
   m_LastFoldersGridSize: 96
   m_LastProjectPath: H:\Tom\UDEMY_HULK\RPG\RPG_0.10.01\Lair of the Dragon
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be260000
-    m_LastClickedID: 9918
-    m_ExpandedIDs: 00000000702600005027000086270000d4270000e0270000de2b000000ca9a3bffffff7f
+    m_SelectedIDs: 263a0000
+    m_LastClickedID: 14886
+    m_ExpandedIDs: 0000000072260000fc2600005227000088270000d6270000e2270000e42b0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -353,7 +353,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070260000ac2600005027000086270000d4270000e0270000de2b0000
+    m_ExpandedIDs: 00000000722600005227000088270000d6270000e2270000e42b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -390,10 +390,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 7ef6ffff
-    m_LastClickedInstanceID: -2434
+    m_SelectedInstanceIDs: aefaffff
+    m_LastClickedInstanceID: -1362
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 
+    m_ExpandedInstanceIDs: fc270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
     height: 712
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7ef6ffff50f9ffff0af5ffff
-    m_LastClickedID: -2806
-    m_ExpandedIDs: 94f6ffff1afcffff00000000b0280000
+    m_SelectedIDs: 4e010000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 92f6ffff1afcffff00000000a8280000b4280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 1228
     height: 712
   m_SceneLighting: 1
-  lastFramingTime: 4717.082683291889
+  lastFramingTime: 611.8129996910931
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.1351924, y: 1.0163484, z: -1.4154797}
+    m_Target: {x: 0.6189678, y: -0.49064445, z: 3.0815575}
     speed: 2
-    m_Value: {x: 0.1351924, y: 1.0163484, z: -1.4154797}
+    m_Value: {x: 0.6189678, y: -0.49064445, z: 3.0815575}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -563,13 +563,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.2552076, y: -0.24470751, z: 0.06693523, w: 0.93301076}
+    m_Target: {x: 0.38151464, y: -0.111890785, z: 0.046586007, w: 0.9163874}
     speed: 2
-    m_Value: {x: 0.25520733, y: -0.24470724, z: 0.06693515, w: 0.93300974}
+    m_Value: {x: 0.3815129, y: -0.11189028, z: 0.046585795, w: 0.9163832}
   m_Size:
-    m_Target: 12.405189
+    m_Target: 9.453583
     speed: 2
-    m_Value: 12.405189
+    m_Value: 9.453583
   m_Ortho:
     m_Target: 0
     speed: 2
